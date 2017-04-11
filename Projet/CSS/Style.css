@@ -110,3 +110,31 @@ p {
 	border-radius: 50px; 
 	display:block;
 } 
+.footer {
+  position: absolute;
+  margin:0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  width: 100px;
+  height: 25px;
+  background: #dedef9;
+  border:2px solid black;
+  border-radius: 4px;
+  text-align:center;
+  
+}
+.Ecriture-bouton{
+	position: relative; 
+	padding: 5px 15px 12px 10px;
+	display:table-cell;
+	font-weight: bold;
+	color:black;
+
+	
+	
+}
+.link-rectangle {
+	text-decoration: none;
+	
+}
