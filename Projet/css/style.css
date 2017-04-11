@@ -1,0 +1,96 @@
+body {
+	font-size: 15px;
+}
+
+main {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+img {
+	width: auto;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* general classes ******************/
+
+.float-l {
+	float: left;
+}
+
+/* cards ******************/
+
+.card {
+	border: 1px solid #eee;
+	border-radius: 5px;
+	padding: 1rem;
+	height: 200px;
+}
+
+.card::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.card figure {
+	width: calc(40%);
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+.card .title {
+	margin: 0.4rem 0 1rem;
+}
+
+.card .content {
+	width: calc(60%);
+	padding-left: 1rem;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.card .features {
+	margin-bottom: 1rem;
+}
+
+.card .features .cost,
+.card .features .number {
+	width: auto;
+	margin: 0 1rem 0.2rem 0;
+
+}
+
+.card .features .location {
+	clear: both;
+}
+
+.card .fa-star-o {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 1.2rem
+}
+
+/* pagination ******************/
+
+.pagination {
+	list-style: none;
+	text-align: center;
+}
+
+.pagination > li {
+	width: 20px;
+	border: 1px solid #eee;
+	display: inline-block;
+}
+
+.pagination > li.active {
+	font-weight: bold;
+}
