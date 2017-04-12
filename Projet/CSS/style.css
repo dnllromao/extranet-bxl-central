@@ -70,25 +70,25 @@ a {
 		position: relative;
 	}
 
-		.card .title {
+		.card_title {
 			margin: 0.4rem 0 1rem;
 		}
 
-		.card .features {
+		.card_features {
 			margin-bottom: 1rem;
 		}
 
-		.card .features .cost,
-		.card .features .number {
-			width: auto;
-			margin: 0 1rem 0.2rem 0;
-		}
+			.card_features .cost,
+			.card_features .number {
+				width: auto;
+				margin: 0 1rem 0.2rem 0;
+			}
 
-		.card .features .location {
-			clear: both;
-		}
+			.card_features .location {
+				clear: both;
+			}
 
-		.card .fa-star-o {
+		.card_content .favorite-icon {
 			position: absolute;
 			top: 0;
 			right: 0;
