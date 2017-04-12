@@ -1,0 +1,119 @@
+/*------------------------------------*\
+    $CONTENU
+\*------------------------------------*/
+/**
+ * CONTENU.............Vous êtes en train de le lire
+ * GENERAL...............General elements
+ * CARDS................Cards
+ * PAGINATION................Pagination
+ */
+
+/*------------------------------------*\
+    $GENERAL
+\*------------------------------------*/
+
+ body {
+	font-size: 15px;
+}
+
+.content {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+img {
+	width: auto;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.float-l {
+	float: left;
+}
+
+
+
+
+
+/*------------------------------------*\
+    $CARDS
+\*------------------------------------*/
+
+.card {
+	border: 1px solid #eee;
+	border-radius: 5px;
+	padding: 1rem;
+
+}
+
+.card::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+	.card_thumb {
+		width: 40%;
+		height: 200px;
+		margin: 0;
+		overflow: hidden;
+	}
+
+	.card_content {
+		width: calc(60%);
+		padding-left: 1rem;
+		box-sizing: border-box;
+		position: relative;
+	}
+
+		.card .title {
+			margin: 0.4rem 0 1rem;
+		}
+
+		.card .features {
+			margin-bottom: 1rem;
+		}
+
+		.card .features .cost,
+		.card .features .number {
+			width: auto;
+			margin: 0 1rem 0.2rem 0;
+		}
+
+		.card .features .location {
+			clear: both;
+		}
+
+		.card .fa-star-o {
+			position: absolute;
+			top: 0;
+			right: 0;
+			font-size: 1.2rem
+		}
+
+
+
+
+
+/*------------------------------------*\
+    $PAGINATION
+\*------------------------------------*/
+
+.pagination {
+	list-style: none;
+	text-align: center;
+}
+
+	.pagination > li {
+		width: 20px;
+		border: 1px solid #eee;
+		display: inline-block;
+	}
+
+	.pagination > li.active {
+		font-weight: bold;
+	}
