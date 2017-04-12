@@ -9,6 +9,11 @@ background: #efefff; /** Couleur moins frappante à l'oeil **/
 
 }
 
+h3 {
+	text-align: center;
+
+}
+
 p {
 
 	text-align:right;
