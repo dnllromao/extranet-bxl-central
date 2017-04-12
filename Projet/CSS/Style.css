@@ -35,7 +35,7 @@ p {
 .imag1 {
 	text-align:center;
 	width:340px;
-	height: 340px;
+	
 	margin-left: 50px;
 	display:inline-block;
 	margin:0 auto;
@@ -95,6 +95,7 @@ p {
 	-webkit-border-radius: 50px; 
 	border-radius: 50px; 
 	display:block;
+	
 } 
 .Meeting-en-cours { 
 	position:relative;
@@ -115,21 +116,22 @@ p {
   margin:0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 15px;
+  margin-left: 35px;
   width: 100px;
   height: 25px;
   background: #dedef9;
   border:2px solid black;
   border-radius: 4px;
-  text-align:center;
+  
   
 }
 .Ecriture-bouton{
-	position: relative; 
-	padding: 5px 15px 12px 10px;
-	display:table-cell;
+	position: relative;
+	left:-2px;
+	
 	font-weight: bold;
 	color:black;
+	display:table-cell;
 
 	
 	
