@@ -1,0 +1,91 @@
+body {
+	margin : 0px;
+	padding : 0px;
+	font-family : Arial;
+}
+
+.header {
+	min-height : 200px;
+	width : 100%;
+	min-width : 500px;
+	background-image : url("../Images/sallebleue.jpg");
+	background-repeat : no-repeat;
+	background-position : center;
+	background-size : 100%;
+	margin : 0px;
+	padding : 0px;
+
+}
+
+.content {
+	
+	height : 100%;
+	background-color : #fff;
+	margin :auto;
+}
+
+
+.bluetitle {
+	margin : auto;
+	font-size : 350%;
+	text-align : left;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+}
+
+.nofree {
+	width: 30px; 
+	height: 30px; 
+	background-color: red;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	
+}
+
+
+.free {
+	width: 30px; 
+	height: 30px; 
+	background-color: green;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	 
+}
+
+.free:hover {
+	opacity: 0.5;
+        filter: alpha(opacity=50);
+}
+
+.planning {
+
+	float : left;
+	margin-left : 20px;
+}
+
+.middle {
+	width : 50%;
+	float : left;
+	margin-left : 20px;
+}
+
+.cta a {
+	display : inline-block;
+	height : 40px;
+	width : 150px;
+	background-color : green;
+	border-radius : 10px;
+	padding-top : 10px;
+	text-align : center;
+	color : #fff;
+	text-decoration : none;
+	font-weight : bold;
+	margin-top : 20px;	
+}
+
+
+
+
+

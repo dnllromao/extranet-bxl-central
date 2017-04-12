@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formuliere</title>
+  <link rel="stylesheet" href="CSS/formuliere.css">
+ 
+
+</head>
+<body>
+
+ 
+<form class="reservation" >
+
+<div class"header">
+   <h1>Réservation salle réunion:</h1>
+</div>
+
+<!--<table style="width: 100%;">
+ <div class="styleform"> -->
+ <table>
+    <fieldset id="inputs">
+
+<div class="col-6">
+        
+        <label>Nom:</label> 
+        <div>
+        <input id="" ="nom" type="text" placeholder="Nom" autofocus required>
+        </div>
+
+        
+        <label>Prenom:</label> 
+        <div>
+        <input id="prenom" type="text" placeholder="Prenom" autofocus required>
+        </div>
+
+        <label>Phone:</label> 
+        <div>
+          <input id="Phone" type="text" placeholder="Téléphone" autofocus required>
+        </div>
+
+
+        <label>E-mail:</label>  
+        <div> 
+          <input id="email" type="text" placeholder="E-mail" autofocus required>
+        </div>
+
+</div>
+
+
+<div class="col-6">
+
+        <label >Date:</label>
+        <div>
+          <input id="Date" type="date" placeholder="Date"  >
+        </div>
+
+
+        <label>Heure:</label>
+        <div>
+          <input id="Heure" type="time" placeholder="Hrs:mins" pattern="^([0-1]?[0-9]|2[0-4]):([0-5][0-9])(:[0-5][0-9])?$"    autofocus="" required>
+        </div>
+
+        
+          <label>Durée:</label>
+          <div>
+          <input id="Duree" type="text" placeholder="Durée" autofocus required>
+          <div>
+        
+
+        
+          <label>Nombre de personnes:</label>
+          <div>
+          <input id="NombrePers" type="number" placeholder="nombre de personnes" pattern="[0-9]" autofocus required>
+          </div>
+        
+</div>
+
+
+    </fieldset>
+
+    <fieldset id="actions">
+
+
+    </fieldset>
+    <!--</div>-->
+
+    <p><input type="submit" id="submit" value="Reserver"></p>
+</table>
+
+
+
+
+</body>
+</html>
