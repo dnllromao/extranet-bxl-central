@@ -1,0 +1,142 @@
+html, body {
+background-color: white;
+width: 100%;
+padding: 0;
+margin:0;
+height: 100%;
+min-height:100%; 
+background: #efefff; /** Couleur moins frappante à l'oeil **/
+
+}
+
+p {
+
+	text-align:right;
+	margin-left: 35px;
+	margin-bottom: 25px;
+	padding-top: 5px; 
+	width: 200px;	
+
+}
+
+.Top {
+	text-align: center;
+
+}
+
+
+
+.blocs-images {
+	margin:35px 20px 0px 20px;
+	display:inline-block;
+
+}
+
+.imag1 {
+	text-align:center;
+	width:340px;
+	
+	margin-left: 50px;
+	display:inline-block;
+	margin:0 auto;
+
+	
+}
+.Occupé { 
+	position:relative;
+	margin-top:5px;
+	margin-left: 15px;
+	text-align:center;
+	width: 30px; 
+	height: 30px; 
+	background: red; 
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	border-radius: 50px; 
+	display:block;
+} 
+.Libre { 
+	position:relative;
+	margin-top:5px;
+	margin-left: 15px;
+	text-align:center;
+	width: 30px; 
+	height: 30px; 
+	background: green; 
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	border-radius: 50px; 
+	display:block;
+} 
+.Pas-de-Meeting { 
+	position:relative;
+	display:inline-block;
+	text-align:right;
+	margin-top:5px;
+	margin-left: 15px;
+	width: 30px; 
+	height: 30px; 
+	background: green; 
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	border-radius: 50px; 
+	display:block;
+} 
+.Meeting-prévu { 
+	position:relative;
+	display:inline-block;
+	text-align:right;
+	margin-top:5px;
+	margin-left: 15px;
+	width: 30px; 
+	height: 30px; 
+	background: red; 
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	border-radius: 50px; 
+	display:block;
+	
+} 
+.Meeting-en-cours { 
+	position:relative;
+	display:inline-block;
+	text-align:right;
+	margin-top:5px;
+	margin-left: 15px;
+	width: 30px; 
+	height: 30px; 
+	background: orange; 
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	border-radius: 50px; 
+	display:block;
+} 
+.footer {
+  position: absolute;
+  margin:0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+  width: 100px;
+  height: 25px;
+  background: #dedef9;
+  border:2px solid black;
+  border-radius: 4px;
+  
+  
+}
+.Ecriture-bouton{
+	position: relative;
+	left:-2px;
+	
+	font-weight: bold;
+	color:black;
+	display:table-cell;
+
+	
+	
+}
+.link-rectangle {
+	text-decoration: none;
+	
+}
