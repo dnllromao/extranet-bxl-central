@@ -1,0 +1,21 @@
+#EXTRANET DE BECENTRAL
+
+##Gabriele
+
+* Rajouter un input de recherche.
+* Rajouter un bouton "Admin" pour pouvoir accéder au liste de salles quand on a un droit admin.
+* A la place d'un bouton, mettre un menu top.
+
+##Sant-Diego
+
+*Liste des salles.
+*Modification des salles.
+
+##Ludo
+
+*Rajout d'un bouton merci après validation de l'achat.
+*Revient sur index.html après validation.
+
+##Daniella
+
+*J'ai oublié je modifierais après demande de Daniella.
