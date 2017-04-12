@@ -22,8 +22,8 @@
 }
 
 img {
-	width: auto;
-	height: 100%;
+	width: 100%;
+	height: auto;
 }
 
 a {
@@ -35,6 +35,9 @@ a {
 	float: left;
 }
 
+.fa {
+	margin-right: 0.3rem;
+}
 
 
 
@@ -117,3 +120,11 @@ a {
 	.pagination > li.active {
 		font-weight: bold;
 	}
+
+
+
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
