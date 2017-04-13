@@ -1,0 +1,75 @@
+body {
+	margin: 0px;
+	margin-top: 50px;
+	padding: 0px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	background-color: white;
+	line-height: 1.7em; }
+
+
+
+
+h2 { 
+	font-size: 30px; 
+	margin: 0 0 15px 0; 
+	padding: 5px 0; 
+ 	color: #3779ba; 
+ 	font-weight: normal;
+ 	text-align: center; }
+
+h6 { 
+	font-size: 14px; 
+	margin: 0 0 5px; 
+	padding: 0; 
+ 	color: #3779ba; 
+ 	font-weight: normal; }
+
+ #container {
+
+  width: 1000px;
+  margin: auto;
+
+ }
+
+.Image {
+    float : left;
+    width: 320px;
+    padding: 5px;
+
+    
+}
+
+.Image2 {
+
+ 	float : left;
+    width: 320px;
+    padding: 5px;
+    
+}
+
+.icon {
+border-radius: 9px;
+
+}
+
+.cerclevert {
+
+color: green;
+width: 10000px;
+height: 10000px;
+}
+
+.cerclerouge {
+
+color: red;
+width: 30px;
+height: 30px;
+}
+
+.cercleorange{
+
+color: orange;
+width: 30px;
+height: 30px;
+}
