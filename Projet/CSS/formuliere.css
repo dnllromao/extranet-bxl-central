@@ -56,3 +56,15 @@ th {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+
+.recherche
+{
+	background-color : #ccc;
+	display : block;
+	width : 150px;
+	height : 30px;
+	border : solid 1px black;
+	color : #FFF;
+	text-align : center;
+}
+

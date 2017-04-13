@@ -14,7 +14,7 @@ h3 {
 
 }
 
-p {
+.Contenu {
 
 	text-align:right;
 	margin-left: 35px;
@@ -26,6 +26,7 @@ p {
 
 .Top {
 	text-align: center;
+	background-color: #efefff;
 
 }
 
@@ -116,20 +117,7 @@ p {
 	border-radius: 50px; 
 	display:block;
 } 
-.footer {
-  position: absolute;
-  margin:0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 35px;
-  width: 100px;
-  height: 25px;
-  background: #dedef9;
-  border:2px solid black;
-  border-radius: 4px;
-  
-  
-}
+
 .Ecriture-bouton{
 	position: relative;
 	left:-2px;
@@ -145,3 +133,29 @@ p {
 	text-decoration: none;
 	
 }
+
+#footer { 
+	position: relative;
+ 	width: 54px; 
+ 	border-width: 50px 18px 0; 
+ 	border-style: solid; 
+ 	border-color: blue transparent; 
+ 	float:left;
+ }
+
+ #footer:before { 
+ 	content: ""; 
+ 	position: absolute; 
+ 	height: 0; 
+ 	width: 0; 
+ 	top: -85px; 
+ 	left: -18px; 
+ 	border-width: 0 45px 35px; 
+ 	border-style: solid; 
+ 	border-color: transparent transparent blue; 
+ }
+
+ .Admin {
+	
+	
+ }
