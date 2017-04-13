@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="search" content="width=device-width, initial-scale=1">
+  <title>Recherche</title>
+  <link rel="stylesheet" href="list.css">
+
+  <script>
+function Function_Filtre() {
+    // Declare variables
+    var input, filter, ul, li, a, i;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName('li');
+
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+
+function Function_Select() {
+
+	var item;
+
+	item = document.getElementById("ID").innerHTML =  "hello";
+}
+</script>
+
+</head>
+
+
+
+<body>
+
+ <input type="text" id="myInput" onkeyup="Function_Filtre()" placeholder="Chercher salle..">
+
+
+<ul id="myUL">
+  <li><a href="#" class="header">A</a></li>
+  <li><a id="A1" href="#">Abbaye de Nizelles</a></li>
+  <li><a id="A2" href="#">Abbaye de Stavelot</a></li>
+
+  <li><a href="#" class="header">B</a></li>
+  <li><a id="B1" href="#">Bateau</a></li>
+  <li><a id="B2" href="#">Bar à vin</a></li>
+
+  
+
+  <li><a href="#" class="header">K</a></li>
+  <li><a id="K1" href="#">Kloster Heidberg</a></li>
+
+  <li><a href="#" class="header">S</a></li>
+  <li><a id="K1" href="#">Salle classique</a></li>
+  <li><a id="K2" href="#">Salle communale</a></li>
+  <li><a id="K3" href="#">Salle thématique</a></li>
+
+  
+</ul>
+
+</body>
+</html>
